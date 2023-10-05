@@ -1,5 +1,31 @@
 # Project 2 - Ames Housing Data and Kaggle Challenge
 
+I am part of a firm, SmartConsulting, that has been hired by IA Construction, a developer in Iowa. IA construction is looking to purchase land in Ames, IA as well as possibly in other towns nearby. Before they purchase the land and begin to plan out construction, they need more information about the housing market. IA construction wants to be able to estimate the profit from this project as well as design their construction plans to maximize profit. 
+
+SmartConsulting has assessed IA Construction's problem and assigned me the task of creating a model that will predict the sale price of a single home, which will be used to predict the total revenue. However, other members of my team will be using insights from my model to develop other models to help guide construction choices. 
+
+Specifically, my model will be used as a starting point to help advise what types of home models will be most profitable and to help predict how certain features impact home price. These features include:
+- 1 story vs 2 story vs split-level
+- SQ Footage (Size of the homes)
+- Number of bedrooms
+- Number of bathrooms
+- Quality of building materials/ material choice
+- Adding a basement
+- Adding a garage
+
+
+My team's final recommendations will account for costs, time to sell (desirability) and other factors.
+
+
+
+# Data Dictionary
+
+
+
+
+
+
+
 Welcome to Project 2! It's time to start modeling.
 
 **Primary Learning Objectives:**
