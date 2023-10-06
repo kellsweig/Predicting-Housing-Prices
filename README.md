@@ -83,3 +83,11 @@ Impacts of selected variables:
 - Basements only slightly improved the value: the home value increased by $4 for every increase in sq footage of the basement when all else was held equal
 - Holding all else equal, adding a garage and increasing the size increased the home value. Creating space for one more car resulted in an approximatedly \$10,000 increased in value
 - Quality of the house and materials mattered: increasing the overall quality of the house by 1 led to an increase in sale price of almost \$8,000
+
+
+## Next Steps:
+1. Refine the model further to better predict the Sale Price of individual homes and prevent large discrepancies in predicted vs actual revenue for IA Construction through the aggregation of errors
+2. Create a model for cost based on home style/ layout, materials, room types, lot size, and time on market
+3. Create a model for length of time on market
+4. Utilize sale price, cost, and sale time models in a model to maximize profit per home
+5. Create a final presentation for the client, IA Construction
