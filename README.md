@@ -49,13 +49,13 @@ This dataset contains 80 independent variables as well as 1 dependent variable- 
 
 
 # EDA & Data Cleaning
-In the EDA & Data Cleaning Notebook (http://localhost:8888/lab/tree/Data%20Cleaning.ipynb), I conducted exploratory data analysis and data cleaning. In my EDA I noted multiple issues such as missing values and incorrect variable types. I corrected this information in my data cleaning steps. In my EDA section I primarily used visualizations to determine which variables had the strongest relationships with saleprice. These are the variables listed above in the data dictionary.
+In the EDA & Data Cleaning Notebook found in the code folder, I conducted exploratory data analysis and data cleaning. In my EDA I noted multiple issues such as missing values and incorrect variable types. I corrected this information in my data cleaning steps. In my EDA section I primarily used visualizations to determine which variables had the strongest relationships with saleprice. These are the variables listed above in the data dictionary.
 
 
 # Model Development
-I created multiple linear regression models. I incorporated different features into different models, attempted to create overfit models and scale them back using regularization, and experimented with which variables to include. In the models I created, features such as Polynomials, and regularization techniques such as LASSO decreased the success of the model (measured in R2 and MSE). 
+I created multiple linear regression models. I incorporated different features into different models, attempted to create overfit models and scale them back using regularization, and experimented with which variables to include. In the models I created, features such as Polynomials, and regularization techniques such as LASSO decreased the success of the model (measured in R2 and MSE). These models can be found in a notebook in the code folder.
 
-After finding that adding more features was unhelpful, and a model utilizing every possible column did not perform well, I began to focus on identifying the most significant variables and incorporating them into the model. This is the model I developed and analyzed in the Final Model Notebook (http://localhost:8888/lab/tree/Final%20Model.ipynb). I then used a stats summary to identify some columns that could be dropped (high p-value) and I removed those from the model. MSE decreased and the r2 of my validation data improved. 
+After finding that adding more features was unhelpful, and a model utilizing every possible column did not perform well, I began to focus on identifying the most significant variables and incorporating them into the model. This is the model I developed and analyzed in the Final Model Notebook in the Code Folder. I then used a stats summary to identify some columns that could be dropped (high p-value) and I removed those from the model. MSE decreased and the r2 of my validation data improved. 
 
 
 # Analysis
