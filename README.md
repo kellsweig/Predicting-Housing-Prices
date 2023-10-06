@@ -5,9 +5,8 @@ I am part of a firm, SmartConsulting, that has been hired by IA Construction, a 
 SmartConsulting has assessed IA Construction's problem and assigned me the task of creating a model that will predict the sale price of a single home, which will be used to predict the total revenue. However, other members of my team will be using insights from my model to develop other models to help guide construction choices. 
 
 Specifically, my model will be used as a starting point to help advise what types of home models will be most profitable and to help predict how certain features impact home price. These features include:
-- 1 story vs 2 story vs split-level
+- House Type
 - SQ Footage (Size of the homes)
-- Number of bedrooms
 - Number of bathrooms
 - Quality of building materials/ material choice
 - Adding a basement
@@ -50,13 +49,13 @@ This dataset contains 80 independent variables as well as 1 dependent variable- 
 
 
 # EDA & Data Cleaning
-In the EDA & Data Cleaning Notebook, I conducted exploratory data analysis and data cleaning. In my EDA I noted multiple issues such as missing values and incorrect variable types. I corrected this information in my data cleaning steps. In my EDA section I primarily used visualizations to determine which variables had the strongest relationships with saleprice. These are the variables listed above in the data dictionary.
+In the EDA & Data Cleaning Notebook (http://localhost:8888/lab/tree/Data%20Cleaning.ipynb), I conducted exploratory data analysis and data cleaning. In my EDA I noted multiple issues such as missing values and incorrect variable types. I corrected this information in my data cleaning steps. In my EDA section I primarily used visualizations to determine which variables had the strongest relationships with saleprice. These are the variables listed above in the data dictionary.
 
 
 # Model Development
 I created multiple linear regression models. I incorporated different features into different models, attempted to create overfit models and scale them back using regularization, and experimented with which variables to include. In the models I created, features such as Polynomials, and regularization techniques such as LASSO decreased the success of the model (measured in R2 and MSE). 
 
-After finding that adding more features was unhelpful, and a model utilizing every possible column did not perform well, I began to focus on identifying the most significant variables and incorporating them into the model. I then used a stats summary to identify some columns that could be dropped (high p-value) and I removed those from the model. MSE decreased and the r2 of my validation data improved. This was the model I chose which is saved in the Final Model notebook. 
+After finding that adding more features was unhelpful, and a model utilizing every possible column did not perform well, I began to focus on identifying the most significant variables and incorporating them into the model. This is the model I developed and analyzed in the Final Model Notebook (http://localhost:8888/lab/tree/Final%20Model.ipynb). I then used a stats summary to identify some columns that could be dropped (high p-value) and I removed those from the model. MSE decreased and the r2 of my validation data improved. 
 
 
 # Analysis
@@ -77,13 +76,10 @@ In order to more accurately predict total revenue, this model should be refined 
 
 Some of the variables have a signficant impact on Sale Price.
 
-
-
-
-
-- Presentation slides
-- Any other necessary files (images, etc.)
-
-**Submit a link to your repo in Google Classroom.**
-
-
+Impacts of selected variables: 
+- MS SubClass or house type is a signficcant predictor. The baseline is 1- Story Planned Unit Development. Holding all other variables equal, out of all PUDs, the 1 story models have the highest sale prices: changing from a 1-story to a 1 1/2 story (while holding all else equal) decreases the predicted price by \$81,750. 
+- All else held equal, adding a fireplace increasese the home value by over \$7,000
+- All else held equal, adding a bathroom increases the home value by \$5,550.
+- Basements only slightly improved the value: the home value increased by $4 for every increase in sq footage of the basement when all else was held equal
+- Holding all else equal, adding a garage and increasing the size increased the home value. Creating space for one more car resulted in an approximatedly \$10,000 increased in value
+- Quality of the house and materials mattered: increasing the overall quality of the house by 1 led to an increase in sale price of almost \$8,000
