@@ -1,19 +1,10 @@
 # Project 2 - Ames Housing Data and Kaggle Challenge
 
-I am part of a firm, SmartConsulting, that has been hired by IA Construction, a developer in Iowa. IA construction is looking to purchase land in Ames, IA as well as possibly in other towns nearby. Before they purchase the land and begin to plan out construction, they need more information about the housing market. IA construction wants to be able to estimate the profit from this project as well as design their construction plans to maximize profit. 
+This project was undertaken as an assignment during my immersive Data Science program. One of the requirmenets of this project was to develop a linear regression model. I was not allowed to use a random forest or any other type of ML model for prediction.
 
-SmartConsulting has assessed IA Construction's problem and assigned me the task of creating a model that will predict the sale price of a single home, which will be used to predict the total revenue. However, other members of my team will be using insights from my model to develop other models to help guide construction choices. 
+For my project I created a fictious scenario where I was an employee of SmartConsulting, a firm hired by IA Construction, a developer in Iowa. In this scenario, IA Construction is interested in purchasing land in Ames, IA, and nearby towns. To make informed decisions on land acquisition and construction planning, IA Construction required insights into the local housing market. The goal was to estimate potential profit and optimize construction plans for maximum profitability.
 
-Specifically, my model will be used as a starting point to help advise what types of home models will be most profitable and to help predict how certain features impact home price. These features include:
-- House Type
-- SQ Footage (Size of the homes)
-- Number of bathrooms
-- Quality of building materials/ material choice
-- Adding a basement
-- Adding a garage
-
-
-My team's final recommendations will account for costs, time to sell (desirability) and other factors.
+My goal was to develop a predictive model for the sale price of individual homes. The model's insights would then be used to develop additional models guiding construction choices. I also sought to determine the importance and impact of specific features on total price. These key features included house type, square footage, number of bathrooms, quality of building materials, basement and garage additions.
 
 
 
@@ -86,8 +77,8 @@ Impacts of selected variables:
 
 
 ## Next Steps:
-1. Refine the model further to better predict the Sale Price of individual homes and prevent large discrepancies in predicted vs actual revenue for IA Construction through the aggregation of errors
-2. Create a model for cost based on home style/ layout, materials, room types, lot size, and time on market
-3. Create a model for length of time on market
-4. Utilize sale price, cost, and sale time models in a model to maximize profit per home
-5. Create a final presentation for the client, IA Construction
+1. Refine the model further for more accurate predictions of individual home sale prices.
+2. Create additional models for cost estimation based on various factors.
+3. Develop a model for predicting the length of time a property stays on the market.
+4. Integrate sale price, cost, and sale time models to maximize profit per home.
+5. Prepare a final presentation for the hypothetical client, IA Construction.
